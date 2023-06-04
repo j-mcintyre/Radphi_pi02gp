@@ -734,7 +734,7 @@ Bool_t TwoG_may_12_2023::Process(Long64_t entry)
 
       // Histos used for individual |t| bin fitting of signal and 
       // background for mass sideband subtraction weight calculation
-      for (int cycE = 0; cycE <= 20; cycE++) {
+      for (int cycE = 0; cycE < 20; cycE++) {
          if (tabs >= BinM2g[cycE][0] && tabs < BinM2g[cycE][1]) {
             if (cochan[taghit] >= TC_Range0a && cochan[taghit] <= TC_Range0b) {
                M2g_E0_[cycE]->Fill(imass2, tag_wgt);

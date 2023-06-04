@@ -54,12 +54,12 @@
 TString proofserver("proof://stat31.phys.uconn.edu:1099/?N");
 
 /* Can use nod 25, 26, 27, 28, or 29 for xrootdpath */
-TString xrootdpath("root://nod26.phys.uconn.edu/Gluex/radphi/pass-9-2020");    // Real data
-//TString xrootdpath("root://nod26.phys.uconn.edu/Gluex/radphi/sims_2020");    // MC data
+TString xrootdpath("root://nod29.phys.uconn.edu/Gluex/radphi/pass-9-2020");    // Real data
+//TString xrootdpath("root://nod29.phys.uconn.edu/Gluex/radphi/sims_2020");    // MC data
 //TString xrootdpath("/pnfs/phys.uconn.edu/data/Gluex/radphi/sims_2020");      // Alternate path
 
-TString pnfspath("root://nod26.phys.uconn.edu/Gluex/radphi/pass-9-2020");      // Real data
-//TString pnfspath("root://nod26.phys.uconn.edu/Gluex/radphi/sims_2020");      // MC data
+TString pnfspath("root://nod29.phys.uconn.edu/Gluex/radphi/pass-9-2020");      // Real data
+//TString pnfspath("root://nod29.phys.uconn.edu/Gluex/radphi/sims_2020");      // MC data
 //TString pnfspath("/pnfs/phys.uconn.edu/data/Gluex/radphi/pass-9-2020");      // Alternate path
 
 TChain *fullchain()
@@ -91,7 +91,7 @@ void proof_TwoG_may_12_2023(int nevents=2000000000)
    if (gProof == 0) {
       TProof::Open(proofserver);
       gProof->SetParameter("PROOF_LookupOpt", "none");
-      gProof->SetParameter("PROOF_MaxSlavesPerNode", (Int_t)40);
+      gProof->SetParameter("PROOF_MaxSlavesPerNode", (Int_t)72);
    }
 
    gProof->Load("TwoG_may_12_2023.C+O");
