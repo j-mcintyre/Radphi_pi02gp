@@ -1,0 +1,232 @@
+Histogram = Allt_E0
+Tagger Channel Range = 0  -->  E_photon = 5.115 to 5.385 GeV
+|t| = 0.1 to 1.9 GeV^2/c^4 -- Using XPi_bins[20][2]
+
+Status = Converged
+
+chisqTot -> 3131.54
+ndofTot -> 227
+fit probabilityTot -> 0
+
+Pi0 fit peak           = 136.989 MeV/c^2
+PiPar = 0.137789
+Eta fit peak           = 545.763 MeV/c^2
+EtaPar = 0.546399
+Omega Leakage fit peak = 737.706 MeV/c^2
+OmegaPar = 0.723589
+Etap fit peak          = 966.46 MeV/c^2
+
+Pi0_____mean_1 -> 0.136559
+Pi0____sigma_1 -> 0.015004
+Pi0_____mean_2 -> 0.138681
+Pi0____sigma_2 -> 0.0251204
+
+Eta_____mean_1 -> 0.542982
+Eta____sigma_1 -> 0.0390426
+Eta_____mean_2 -> 0.583792
+Eta____sigma_2 -> 0.0523802
+
+3G_leak_mean_1 -> 0.743088
+3G_leak_sigma1 -> 0.0542416
+3G_leak_mean_2 -> 0.737405
+3G_leak_sigma2 -> 0.0556222
+
+Etap____mean_1 -> 0.96646
+Etap___sigma_1 -> 0.0339484
+
+p0     -> -149.753
+p1     -> 5690.77
+p2     -> -8636.21
+p3     -> 3379.59
+
+   // Energy Rescaling Factor
+ER = 0.97;
+0.1 <= |t| <= 1.9 GeV^2/c^4
+
+   // Tagging Scaling Factor
+TSF = 0.935198 +/- 0.00249013;
+
+bin width -> 0.005
+
+PiLower  = 0.055
+PiLow    = 0.095
+pidown   = 0.095
+piup     = 0.18
+PiHigh   = 0.18
+PiHigher = 0.22
+_____________________________________________
+
+Histogram = Allt_E1
+Tagger Channel Range = 1  -->  E_photon = 4.86 to 5.115 GeV
+|t| = 0.1 to 1.9 GeV^2/c^4 -- Using XPi_bins[20][2]
+
+Status = Converged
+
+chisqTot -> 3346.14
+ndofTot -> 228
+fit probabilityTot -> 0
+
+Pi0 fit peak           = 136.911 MeV/c^2
+PiPar = 0.137678
+Eta fit peak           = 546.284 MeV/c^2
+EtaPar = 0.547086
+Omega Leakage fit peak = 735.871 MeV/c^2
+OmegaPar = 0.724722
+Etap fit peak          = 959.487 MeV/c^2
+
+Pi0_____mean_1 -> 0.13655
+Pi0____sigma_1 -> 0.0149739
+Pi0_____mean_2 -> 0.138728
+Pi0____sigma_2 -> 0.0255145
+
+Eta_____mean_1 -> 0.543347
+Eta____sigma_1 -> 0.0387697
+Eta_____mean_2 -> 0.592086
+Eta____sigma_2 -> 0.0453762
+
+3G_leak_mean_1 -> 0.741818
+3G_leak_sigma1 -> 0.0549058
+3G_leak_mean_2 -> 0.735768
+3G_leak_sigma2 -> 0.0581914
+
+Etap____mean_1 -> 0.959487
+Etap___sigma_1 -> 0.0357626
+
+p0     -> -100.9
+p1     -> 4318.75
+p2     -> -6337.6
+p3     -> 2382.67
+
+   // Energy Rescaling Factor
+ER = 0.97;
+0.1 <= |t| <= 1.9 GeV^2/c^4
+
+   // Tagging Scaling Factor
+TSF = 0.935198 +/- 0.00249013;
+
+bin width -> 0.005
+
+PiLower  = 0.065
+PiLow    = 0.1
+pidown   = 0.1
+piup     = 0.175
+PiHigh   = 0.175
+PiHigher = 0.21
+_____________________________________________
+
+Histogram = Allt_E2
+Tagger Channel Range = 2  -->  E_photon = 4.615 to 4.86 GeV
+|t| = 0.1 to 1.9 GeV^2/c^4 -- Using XPi_bins[20][2]
+
+Status = Failed
+
+chisqTot -> 2714.77
+ndofTot -> 228
+fit probabilityTot -> 0
+
+Pi0 fit peak           = 137.278 MeV/c^2
+PiPar = 0.137972
+Eta fit peak           = 547.822 MeV/c^2
+EtaPar = 0.549327
+Omega Leakage fit peak = 738.389 MeV/c^2
+OmegaPar = 0.735901
+Etap fit peak          = 957.248 MeV/c^2
+
+Pi0_____mean_1 -> 0.137024
+Pi0____sigma_1 -> 0.0148841
+Pi0_____mean_2 -> 0.138949
+Pi0____sigma_2 -> 0.0260616
+
+Eta_____mean_1 -> 0.542311
+Eta____sigma_1 -> 0.0339243
+Eta_____mean_2 -> 0.56124
+Eta____sigma_2 -> 0.0475356
+
+3G_leak_mean_1 -> 0.745
+3G_leak_sigma1 -> 0.0474281
+3G_leak_mean_2 -> 0.73  ****
+3G_leak_sigma2 -> 0.0658434
+
+Etap____mean_1 -> 0.957248
+Etap___sigma_1 -> 0.0475162
+
+p0     -> -70.912
+p1     -> 3414.98
+p2     -> -4964.32
+p3     -> 1843.25
+
+   // Energy Rescaling Factor
+ER = 0.97;
+0.1 <= |t| <= 1.9 GeV^2/c^4
+
+   // Tagging Scaling Factor
+TSF = 0.935198 +/- 0.00249013;
+
+bin width -> 0.005
+
+PiLower  = 0.065
+PiLow    = 0.1
+pidown   = 0.1
+piup     = 0.175
+PiHigh   = 0.175
+PiHigher = 0.21
+_____________________________________________
+
+Histogram = Allt_E3
+Tagger Channel Range = 3  -->  E_photon = 4.385 to 4.615 GeV
+|t| = 0.1 to 1.9 GeV^2/c^4 -- Using XPi_bins[20][2]
+
+Status = Converged
+
+chisqTot -> 2697.48
+ndofTot -> 228
+fit probabilityTot -> 0
+
+Pi0 fit peak           = 137.668 MeV/c^2
+PiPar = 0.138328
+Eta fit peak           = 550.832 MeV/c^2
+EtaPar = 0.552002
+Omega Leakage fit peak = 738.969 MeV/c^2
+OmegaPar = 0.73439
+Etap fit peak          = 954.4 MeV/c^2
+
+Pi0_____mean_1 -> 0.137476
+Pi0____sigma_1 -> 0.0147462
+Pi0_____mean_2 -> 0.139234
+Pi0____sigma_2 -> 0.0265995
+
+Eta_____mean_1 -> 0.546447
+Eta____sigma_1 -> 0.0336697
+Eta_____mean_2 -> 0.564997
+Eta____sigma_2 -> 0.0482449
+
+3G_leak_mean_1 -> 0.73  ****
+3G_leak_sigma1 -> 0.0642459
+3G_leak_mean_2 -> 0.745  ****
+3G_leak_sigma2 -> 0.0561269
+
+Etap____mean_1 -> 0.9544
+Etap___sigma_1 -> 0.0518602
+
+p0     -> -64.321
+p1     -> 3011.68
+p2     -> -4349.36
+p3     -> 1602.05
+
+   // Energy Rescaling Factor
+ER = 0.97;
+0.1 <= |t| <= 1.9 GeV^2/c^4
+
+   // Tagging Scaling Factor
+TSF = 0.935198 +/- 0.00249013;
+
+bin width -> 0.005
+
+PiLower  = 0.065
+PiLow    = 0.1
+pidown   = 0.1
+piup     = 0.175
+PiHigh   = 0.175
+PiHigher = 0.21
+_____________________________________________
+
